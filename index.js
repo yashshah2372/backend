@@ -13,7 +13,7 @@ app.get('/yash',(req,res)=>{
 })
 
 app.post('/yash',(req,res)=>{
-    console.log(res);
+    console.log("post req");
 })
 
 app.listen(3000)
