@@ -12,5 +12,8 @@ app.get('/yash',(req,res)=>{
     res.send("hello")
 })
 
+app.post('/yash',(req,res)=>{
+    console.log(res);
+})
 
 app.listen(3000)
