@@ -13,6 +13,10 @@ app.get('/yash',(req,res)=>{
     res.send("hello")
 })
 
+app.get('/any',(req,res)=>{
+    res.send("bye")
+})
+
 app.post('/shah',(req,res)=>{
     console.log(req.body);
 })
