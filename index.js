@@ -22,7 +22,7 @@ app.post('/shah',(req,res)=>{
 })
 
 app.post('/api',(req,res)=>{
-    console.log("Hiiii");
+    res.send("Hiiii");
 })
 
 
