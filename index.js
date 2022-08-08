@@ -21,4 +21,9 @@ app.post('/shah',(req,res)=>{
     console.log(req.body);
 })
 
+app.post('/api',(req,res)=>{
+    console.log("Hiiii");
+})
+
+
 app.listen(3000)
